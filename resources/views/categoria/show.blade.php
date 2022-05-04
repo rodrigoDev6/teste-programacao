@@ -15,7 +15,7 @@
         <li><b>Criado em:</b> {{ $categorias->created_at }}</li>
     </ul>
 
-    <a href="{{ url('artigo') }}" class="btn btn-primary">Voltar</a>
+    <a href="{{ url('categoria') }}" class="btn btn-primary">Voltar</a>
 
 
 @stop
